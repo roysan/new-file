@@ -6,4 +6,5 @@ before_create do |user|
 user.username = user.first_name+user.last_name if user.username.blank?
 end
 
+
 end
